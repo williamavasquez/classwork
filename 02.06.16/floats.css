@@ -1,11 +1,13 @@
-html{}
-
 body{
 	text-align: center;
+	line-height: 32px;
+	color:#333;
 }
+
 header {
 	padding:20px;
 	background-color: #ccc;
+
 }
 
 section {
@@ -27,7 +29,9 @@ section {
 
 #full {
 	clear: both;
-	background-color: yellow
+	width: 100%;
+	overflow: auto;
+	background-color: #eee
 }
 
 aside {
@@ -50,7 +54,5 @@ footer {
 	clear: both;
 	background-color: #ccc;
 	padding: 20px;
-
-
 
 }	
